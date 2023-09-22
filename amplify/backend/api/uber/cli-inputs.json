@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "uber",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AWS_LAMBDA",
+      "lambdaFunction": "uberbd71d94cbd71d94cPostConfirmation",
+      "ttlSeconds": "300"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
